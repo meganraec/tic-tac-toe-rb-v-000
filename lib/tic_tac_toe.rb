@@ -120,6 +120,6 @@ def play(board)
   elsif over?(board)
     puts won?(board)
   else draw?(board)
-    puts "Cat's Game!"
+    return "Cat's Game!"
   end
 end
