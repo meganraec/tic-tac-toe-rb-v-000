@@ -51,7 +51,7 @@ def turn(board)
     index = input_to_index(input)
   end
   puts move(board, index, current_player(board))
-  puts display(board)
+  puts display_board(board)
 end
 
 def turn_count(board)
